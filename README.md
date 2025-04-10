@@ -2,7 +2,7 @@
 
 谁不想给自己的博客界面添加一个可爱的看板娘呢？来看看如何实现吧。
 
-<img src="C:/Users/35194/Desktop/hexo/blog/source/images/搭建hexo/live2D.png" style="height:100px">
+<img src="./live2D.png" style="height: 100px; zoom: 90%;">
 
 在github上有个star非常多的，基于hexo的live2D项目：[EYHN/hexo-helper-live2d](https://github.com/EYHN/hexo-helper-live2d)
 
@@ -239,3 +239,9 @@ live2d:
   ```
 
   即可。
+
+  
+
+其他可用模型：[xiazeyu/live2d-widget-models: Model library for live2d-widget.js](https://github.com/xiazeyu/live2d-widget-models)（交互功能不如默认模型）
+
+其他live2D项目：[stevenjoezhang/live2d-widget: 把萌萌哒的看板娘抱回家 (ノ≧∇≦)ノ | Live2D widget for web platform](https://github.com/stevenjoezhang/live2d-widget)
