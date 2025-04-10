@@ -25,7 +25,7 @@ live2d:
   log: false
   #注释掉mode，使用的就是默认模型
   #mode:
-  	#use:
+    #use:
   display:
     position: left
     width: 100
