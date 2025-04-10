@@ -2,7 +2,7 @@
 
 谁不想给自己的博客界面添加一个可爱的看板娘呢？来看看如何实现吧。
 
-<img src="./live2D.png" style="height: 100px; zoom: 90%;">
+<img src="https://www.sanye.blog/images/%E6%90%AD%E5%BB%BAhexo/live2D.png" style="zoom: 67%;">
 
 在github上有个star非常多的，基于hexo的live2D项目：[EYHN/hexo-helper-live2d](https://github.com/EYHN/hexo-helper-live2d)
 
