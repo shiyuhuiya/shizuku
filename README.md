@@ -223,7 +223,7 @@ live2d:
   npm i
   ```
 
-  然后修改一下`package.json`文件
+  然后修改一下`package.json`文件，`npx`会自动寻找`node_modules`下的`.bin`目录中的可执行文件执行
 
   ```json
   "scripts": {
@@ -238,7 +238,7 @@ live2d:
   npm run build:prod
   ```
 
-  即可。
+  进行生产打包即可。
 
   
 
