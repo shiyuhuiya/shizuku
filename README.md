@@ -66,8 +66,14 @@ live2d:
         this.eventemitter.emit('tapface');
         if (cDefine.DEBUG_LOG)
           console.log('Tap face.');
-        this.models[i].startRandomMotion(cDefine.MOTION_GROUP_FLICK_HEAD,
-          cDefine.PRIORITY_NORMAL);//这段代码模仿下面的代码是修改后的，还真有用
+        let random = +Math.random().toFixed(2)
+        // 50%的概率只做表情，50%的概率做动作
+        if(random>0.50){
+          this.models[i].startRandomMotion(cDefine.MOTION_GROUP_FLICK_HEAD,
+            cDefine.PRIORITY_NORMAL);
+        }else{
+          this.models[i].setRandomExpression();
+        }  
       }
       else if (this.models[i].hitTest(cDefine.HIT_AREA_BODY, x, y)) {
         this.eventemitter.emit('tapbody');

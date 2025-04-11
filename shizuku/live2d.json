@@ -89,21 +89,6 @@
         "sound": "snd/pinchIn_02.mp3"
       },
       {
-        "file": "mtn/shake_00.mtn",
-        "sound": "snd/shake_00.mp3",
-        "fade_in": 500
-      },
-      {
-        "file": "mtn/shake_01.mtn",
-        "sound": "snd/shake_01.mp3",
-        "fade_in": 500
-      },
-      {
-        "file": "mtn/shake_02.mtn",
-        "sound": "snd/shake_02.mp3",
-        "fade_in": 500
-      },
-      {
         "file": "mtn/pinchOut_00.mtn",
         "sound": "snd/pinchOut_00.mp3"
       },
@@ -200,6 +185,21 @@
       {
         "file": "mtn/flickHead_02.mtn",
         "sound": "snd/flickHead_02.mp3"
+      },
+      {
+        "file": "mtn/shake_00.mtn",
+        "sound": "snd/shake_00.mp3",
+        "fade_in": 500
+      },
+      {
+        "file": "mtn/shake_01.mtn",
+        "sound": "snd/shake_01.mp3",
+        "fade_in": 500
+      },
+      {
+        "file": "mtn/shake_02.mtn",
+        "sound": "snd/shake_02.mp3",
+        "fade_in": 500
       }
     ]
   }
